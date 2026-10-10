@@ -55,7 +55,7 @@ tests:
   - inputs:
       infile: test-data/sce.rna-qc.h5ad
     options:
-      y: sum
+      "y": sum
       width: 3
       height: 5
     outputs:
