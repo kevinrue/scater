@@ -46,7 +46,8 @@ Imports:
     RcppML,
     uwot,
     pheatmap,
-    ggrepel
+    ggrepel,
+    anndataR
 Suggests: 
     BiocStyle,
     DelayedMatrixStats,
