@@ -11,6 +11,8 @@ license: MIT
 script: scripts/plot-coldata.R
 depends: [anndataR]
 
+container: ghcr.io/kevinrue/scater:devel
+
 inputs:
   - name: infile
     format: h5ad
