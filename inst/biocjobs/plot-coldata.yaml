@@ -26,10 +26,10 @@ outputs:
     label: Short UI label
 
 options:
-  - name: "y"
+  - name: y_column
     type: string
     required: true
-    label: Name of metadata to plot on the Y-axis
+    label: Name of metadata column to plot on the Y-axis
 
   - name: width
     type: float
@@ -55,7 +55,7 @@ tests:
   - inputs:
       infile: test-data/sce.rna-qc.h5ad
     options:
-      "y": sum
+      y_column: sum
       width: 3
       height: 5
     outputs:
